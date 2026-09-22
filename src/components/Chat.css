@@ -290,8 +290,8 @@
   border-top-right-radius: 0;
   position: relative;
   width: max-content;
-    max-width: 100%;
-  word-wrap: break-word;
+    max-width: 90%;
+  word-wrap: anywhere;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -318,6 +318,7 @@
     display: flex;
     align-items: end;
     margin-bottom: 3px;
+        word-wrap: break-word;
     float: right;
     margin-left: 5px;
 }
